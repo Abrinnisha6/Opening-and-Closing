@@ -1,81 +1,97 @@
 # Opening-and-Closing
 
-## Aim
+# Aim :
+
 To implement Opening and Closing using Python and OpenCV.
 
-## Software Required
+# Software Required :
+
 1. Anaconda - Python 3.7
 2. OpenCV
-## Algorithm:
-### Step1:
-<br>
 
+# Algorithm :
 
-### Step2:
-<br>
+## Step 1 :
 
-### Step3:
-<br>
+Import the necessary packages.
 
-### Step4:
-<br>
+## Step 2 :
 
-### Step5:
-<br>
+Create the Text using cv2.putText
 
+## Step 3 :
+
+Create the structuring element.
+
+## Step 4 :
+
+Use Opening operation.
+
+## Step 5 :
+
+Use Closing Operation.
  
-## Program:
+# Program:
 
-``` Python
-# Import the necessary packages
+## DEVELOPED BY : ABRIN NISHA A
+## REGISTER NO : 212222230005
 
+### Import the necessary packages :
 
-
-# Create the Text using cv2.putText
-
-
-
-# Create the structuring element
-
-
-
-# Use Opening operation
-
-
-
-
-# Use Closing Operation
-
-
-
-
-
+```python
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
 ```
-## Output:
 
-### Display the input Image
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+### Create the Text using cv2.putText :
 
-### Display the result of Opening
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+```python
+img=np.zeros((100,400),dtype='uint8')
+font=cv2.FONT_ITALIC
+cv2.putText(img,'U Bhavya',(5,70),font,2,(255),5,cv2.LINE_AA)
+plt.axis('off')
+plt.imshow(img)
+plt.show()
+```
 
-### Display the result of Closing
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+### Create the structuring element :
 
-## Result
+```python
+kernel=cv2.getStructuringElement(cv2.MORPH_RECT,(9,9))
+```
+### Use Opening operation :
+
+```python
+image_open=cv2.morphologyEx(img,cv2.MORPH_OPEN,kernel)
+plt.axis('off')
+plt.imshow(image_open)
+plt.show()
+```
+### Use Closing Operation :
+
+```python
+image_close=cv2.morphologyEx(img,cv2.MORPH_CLOSE,kernel)
+plt.axis('off')
+plt.imshow(image_close)
+plt.show()
+```
+# Output :
+
+## Display the input Image :
+![Screenshot 2023-05-10 143459](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/fa98eeb3-13ba-47df-a102-7d8bf3ed89d1)
+
+
+## Display the result of Opening :
+
+![Screenshot 2023-05-10 143855](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/c7b25613-a3e7-4721-a4df-97689d8eb7bd)
+
+
+## Display the result of Closing :
+
+![Screenshot 2023-05-10 143937](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/a9d51400-65c1-4495-bc8e-7f82b670b312)
+
+
+# Result :
+
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
