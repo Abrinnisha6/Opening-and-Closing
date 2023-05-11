@@ -49,7 +49,7 @@ import matplotlib.pyplot as plt
 ```python
 img=np.zeros((100,400),dtype='uint8')
 font=cv2.FONT_ITALIC
-cv2.putText(img,'U Bhavya',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img,'ABRIN NISHA',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.axis('off')
 plt.imshow(img)
 plt.show()
@@ -79,18 +79,13 @@ plt.show()
 # Output :
 
 ## Display the input Image :
-![Screenshot 2023-05-10 143459](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/fa98eeb3-13ba-47df-a102-7d8bf3ed89d1)
-
+![Screenshot 2023-05-11 094049](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/6f603718-9cf3-452f-a25c-91c0961a1111)
 
 ## Display the result of Opening :
-
-![Screenshot 2023-05-10 143855](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/c7b25613-a3e7-4721-a4df-97689d8eb7bd)
-
+![Screenshot 2023-05-11 094103](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/ee8bd52e-d679-4818-a6de-345374e18f9d)
 
 ## Display the result of Closing :
-
-![Screenshot 2023-05-10 143937](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/a9d51400-65c1-4495-bc8e-7f82b670b312)
-
+![Screenshot 2023-05-11 094112](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/4908f491-d49f-4d3a-8fb5-be83f6f50021)
 
 # Result :
 
