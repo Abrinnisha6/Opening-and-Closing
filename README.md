@@ -1,40 +1,40 @@
 # Opening-and-Closing
 
-# Aim :
+## Aim :
 
 To implement Opening and Closing using Python and OpenCV.
 
-# Software Required :
+## Software Required :
 
 1. Anaconda - Python 3.7
 2. OpenCV
 
-# Algorithm :
+## Algorithm :
 
-## Step 1 :
+### Step 1 :
 
 Import the necessary packages.
 
-## Step 2 :
+### Step 2 :
 
 Create the Text using cv2.putText
 
-## Step 3 :
+### Step 3 :
 
 Create the structuring element.
 
-## Step 4 :
+### Step 4 :
 
 Use Opening operation.
 
-## Step 5 :
+### Step 5 :
 
 Use Closing Operation.
  
-# Program:
+## Program:
 
-## DEVELOPED BY : ABRIN NISHA A
-## REGISTER NO : 212222230005
+### DEVELOPED BY : ABRIN NISHA A
+### REGISTER NO : 212222230005
 
 ### Import the necessary packages :
 
@@ -76,17 +76,17 @@ plt.axis('off')
 plt.imshow(image_close)
 plt.show()
 ```
-# Output :
+## Output :
 
-## Display the input Image :
+### Display the input Image :
 ![Screenshot 2023-05-11 094049](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/6f603718-9cf3-452f-a25c-91c0961a1111)
 
-## Display the result of Opening :
+### Display the result of Opening :
 ![Screenshot 2023-05-11 094103](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/ee8bd52e-d679-4818-a6de-345374e18f9d)
 
-## Display the result of Closing :
+### Display the result of Closing :
 ![Screenshot 2023-05-11 094112](https://github.com/Abrinnisha6/Opening-and-Closing/assets/118889454/4908f491-d49f-4d3a-8fb5-be83f6f50021)
 
-# Result :
+## Result :
 
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
